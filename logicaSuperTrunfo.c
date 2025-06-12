@@ -121,6 +121,41 @@ int main() {
   } else {
     printf("Carta 2 %s venceu!\n", nomeCidade1);
   }
-
+    printf("***Comparação de cartas (Atributo: Área)***\n");
+    printf("Carta 1: %s: %f\n", nomeCidade, area);
+    printf("Carta 2: %s: %f\n", nomeCidade1, area1);
+    
+    if (area > area1) {
+        printf("Carta 1 %s venceu!\n", nomeCidade);
+  } else {
+    printf("Carta 2 %s venceu!\n", nomeCidade1);
+  }
+    printf("***Comparação de cartas (Atributo: PIB)***\n");
+    printf("Carta 1: %s: %d\n", nomeCidade, pib);
+    printf("Carta 2: %s: %d\n", nomeCidade1, pib1);
+    
+    if (pib > pib1) {
+        printf("Carta 1 %s venceu!\n", nomeCidade);
+  } else {
+    printf("Carta 2 %s venceu!\n", nomeCidade1);
+  }
+    printf("***Comparação de cartas (Atributo: Pontos Turisticos)***\n");
+    printf("Carta 1: %s: %d\n", nomeCidade, pontosTuristicos);
+    printf("Carta 2: %s: %d\n", nomeCidade1, pontosTuristicos1);
+    
+    if (pontosTuristicos > pontosTuristicos1) {
+        printf("Carta 1 %s venceu!\n", nomeCidade);
+  } else {
+    printf("Carta 2 %s venceu!\n", nomeCidade1);
+  }
+    printf("***Comparação de cartas (Atributo: Densidade Populacional)***\n");
+    printf("Carta 1: %s: %d\n", nomeCidade, densidadepopulacional);
+    printf("Carta 2: %s: %d\n", nomeCidade1, densidadepopulacional1);
+    
+    if (densidadepopulacional < densidadepopulacional1) {
+        printf("Carta 1 %s venceu!\n", nomeCidade);
+  } else {
+    printf("Carta 2 %s venceu!\n", nomeCidade1);
+  }
     return 0;
 }
